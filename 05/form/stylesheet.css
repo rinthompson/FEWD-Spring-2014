@@ -1,0 +1,12 @@
+input {
+    color: red;
+}
+p {
+    font-family: Verdana;
+    font-size: 18px;
+}
+textarea {
+    background-color: blue;
+    border-style: none;
+    height: 60px;
+}
