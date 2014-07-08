@@ -1,0 +1,324 @@
+body {
+	font-family: "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+		font-family: Georgia, serif;
+		font-weight: normal;
+	}
+
+.clearfix:after {
+	clear: both;
+	content:'';
+	display: block;
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.absolute_center_parent {
+	position: relative;
+}
+
+.absolute_center {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+
+.header {
+	background-color: #241519;
+	background-image: url(../images/beans.jpg);
+	background-position: center;
+	height: 250px;
+	margin: 50px auto;
+	}
+
+.header .logo {
+	background-image: url(../images/logo.png);
+	height: 103px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 271px;
+}
+
+.about {
+	margin: 100px auto;
+	text-align: center;
+}
+
+.about h2 {
+	color: #261913;
+	font-size: 24px;
+	line-height: 1;
+	margin: 20px 0;
+}
+
+.about p {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666666;
+}
+
+
+
+.menu {
+	background: #f6f6f6;
+	margin: 0 50px 50px auto;
+	padding: 50px 30px 50px;
+}
+
+
+.menu ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.menu li {
+	color: #666;
+	font-size: 15px;
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px 0;
+	padding: 10px 0;
+	width: 100%;
+}
+
+
+.menu .price {
+	float: right;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #999;
+}
+
+.menu h3 {
+	color: #999;
+	font-size: 24px;
+	text-align: center
+}
+
+.menu h4 {
+	color: #999;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.hours {
+	margin: 20px auto;
+}
+
+.hours h5 {
+	color: #261913;
+	font-family: "Georgia", serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 20px 0 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hours p {
+		color: #666;
+		font-size: 15px;
+		margin: 10px 0;
+		line-height: 1.7;
+		text-align: center;
+	}
+
+.hours .button {
+	border: 3px solid #5F3F26;
+	width: 150px;
+	color: #5F3F26;
+	display: block;
+	font-size: 15px;
+	margin: auto;
+	padding: 10px 20px;
+	text-decoration: none;
+	}
+
+.right img {
+		display: none;
+	}
+
+h5 {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1;
+	color: #261913;
+}
+
+
+.footer {
+	background: #241915;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 0.05em;
+	line-height: 1.5;
+	margin: 50px 0 0;
+	padding: 50px 0 60px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+.footer .copyright {
+	margin: 0 0 10px;
+	}
+
+.footer .social_nav {
+	margin: 0;
+	}
+
+.footer .social_nav a {
+	color: #fff;
+	text-decoration: none;
+	}
+
+.footer .icon {
+	background: url(../images/icon.png);
+	height: 45px;
+	margin: 0 auto 20px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 45px;
+	}
+
+
+@media screen and (min-width: 500px) {
+
+		.about {
+			margin: 60px;
+			padding: 20px 50px;
+		}
+
+		.menu {
+			padding: 0 50px;
+			margin: 0 50px 50px;
+		}
+
+		.about h2 {
+		font-size: 30px;
+		}
+
+		.about p {
+			font-size: 15px
+		}
+
+		
+	}
+
+
+	@media screen and (max-width: 740px) {
+
+		.gridlock .row .header_wrapper {
+			width: 100%;
+			margin: 0;
+		}
+
+		.gridlock .row .header_wrapper .header {
+			margin: 0 0 50px;
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 740px) {
+
+		.header {
+			height: 325px;
+			width: 720px;
+		}
+
+		.about {
+			margin: 70px auto;
+			width: ;
+		}
+
+		.about h2 {
+		font-size: 28px;
+		}
+
+		.about p {
+			font-size: 16px
+		}
+
+		.menu {
+			padding: 50px 80px;
+		}
+
+		.menu li {
+			width: 48%;
+		}
+
+		.hours {
+			margin: 50px auto;
+		}
+
+		.button {
+			margin: 20px 0;
+		}
+
+	}
+
+
+	@media screen and (max-width: 980px) {
+
+		.footer {
+			margin-top: 0px;
+		}
+	}
+
+	@media screen and (min-width: 980px) {
+
+		.header {
+			height: 325px;
+			width: 940px;
+		}
+
+		.about {
+			margin: 100px;
+		}
+
+		.about h2 {
+		font-size: 32px;
+		}
+
+		.about p {
+			font-size: 18px
+		}
+
+		.right img {
+			display: inline-block;
+		}	
+
+		.footer .icon {
+			margin: 0 auto -32px;
+		}
+
+		.footer .copyright {
+			margin: 0;
+		}
+
+
+	}
+
+	@media screen and (min-width: 1220px) {
+
+	}
